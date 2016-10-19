@@ -1,0 +1,361 @@
+/*
+Theme Name: Sydney
+Theme URI: localhost/wordpressydney/index.php
+Description: Description
+Author: Opex
+Author URI: www
+Template:
+Version:
+1.0
+*/
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('http://localhost/wordpressydney/wp-content/themes/sydney/css/fonts/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Montserrat Bold';
+    src: url('http://localhost/wordpressydney/wp-content/themes/sydney/css/fonts/Montserrat-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+#scrollup {
+    position: fixed; /* фиксированная позиция */
+    opacity: 0.8; /* прозрачность */
+    padding: 15px 10px 10px; /* отступы */
+    background: none;
+    border-radius: 5px; /* скругление углов */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    right: 10px; /* отступ слева */
+    bottom: 10px; /* отступ снизу */
+    display: none; /* спрятать блок */
+    cursor: pointer;
+ }
+
+#scrollup img{
+    height:40px;
+    width:40px;
+}
+#wrapper{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.container{
+    /*width: 940px;*/
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#header {
+    position: relative;
+    /*padding: 20px 0;*/
+    width: 100%;
+    /*height: 100px;*/
+    background: #ffffff;
+
+}
+
+.logo{
+    float: left;
+
+}
+/*.nav {
+    float: right;
+    padding-top: 10px;
+
+ }
+ */
+.menu{
+    background-color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+
+}
+
+
+
+.navbar-header{
+    /*  padding-right: 140px;*/
+}
+.nav li{
+    float: left;
+    /*margin-right: 20px;*/
+}
+
+.nav li:last-child{
+    margin-left: 15px;
+    background: #FF0000;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
+.nav li:last-child a{
+    color: #FFFFFF !important;
+}
+
+.nav li:last-child:hover{
+    color: #000;
+}
+.nav li:last-child a:hover{
+    color: #000 !important;
+}
+
+.nav a{
+    text-transform: uppercase;
+    font-family: "Montserrat Bold";
+    font-size: 13px;
+    color: #000;
+    display: block;
+}
+.navbar-header img{
+    margin-top: -20px;
+}
+.nav a:hover{
+    color:#FF0000 ;
+    background: #FFFFFF !important;
+}
+
+#bs-example-navbar-collapse-1 .nav .navbar-nav {
+    float: right !important;
+}
+.navbar-nav .open .dropdown-menu {
+    background: #FF0000;
+
+}
+.navbar-nav .open .dropdown-menu li a{
+    color: #FFFFFF;
+    text-transform: capitalize;
+    display: inline;
+
+}
+.navbar-nav .open .dropdown-menu li a:hover{
+    background-color: #000000 !important;
+}
+
+
+/*.dropdown{
+    position: relative;*/
+#home{
+    font-family: "Montserrat Regular";
+    /* height: 480px;*/
+    background: #20244F url('http://localhost/wordpressydney/wp-content/themes/sydney/img/home-bg.png') no-repeat center; /* center? bottom?*/
+    background-size: cover;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+#home h1{
+    font-family: "Montserrat Bold";
+    text-transform: uppercase;
+    color: #FBFBFB;
+}
+#home span{
+    color: #FF0000;
+}
+
+#home p{
+    color: #FBFBFB;
+
+}
+
+#home button{
+    width: 180px;
+    font-family: "Montserrat Bold";
+    font-size: 12px;
+    color: #FBFBFB;
+    background: transparent;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    margin: 20px 15px auto 0;
+    border-radius: 0px;
+    display: inline-block;
+}
+#home button:hover{
+    background-color: #FF0000 ;
+    border-color: #FF0000 ;
+}
+.box{
+    padding: 60px 0;
+}
+
+#express{
+    /*height: 585px;*/
+    background: #FFFFFF ;
+}
+#express h2{
+    font-family: "Montserrat Bold";
+
+}
+#express span.red{
+    color: #FF0000
+
+}
+#express p{
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+#express p:nth-last-child(3){
+    font-family: "Montserrat Regular";
+}
+
+#fast{
+    /*height: 360px;*/
+    background: #F1F1F1;
+    text-align: center;
+    line-height: 24px;
+}
+#fast h4{
+    font-family: "Montserrat Bold";
+    text-transform: uppercase;
+}
+
+.fast-text{
+    font-size: 13px;
+    font-family: "Poppins";
+    padding: 0 50px;
+}
+
+.fast-box{
+    padding: 90px 0;
+}
+
+.fast-ico-1{
+    background: url("http://localhost/wordpressydney/wp-content/themes/sydney/img/fast-ico-1.png") no-repeat center top;
+}
+
+.fast-ico-2{
+    background: url("http://localhost/wordpressydney/wp-content/themes/sydney/img/fast-ico-2.png") no-repeat center top;
+}
+.fast-ico-3{
+    background: url("http://localhost/wordpressydney/wp-content/themes/sydney/img/fast-ico-3.png") no-repeat center top;
+}
+
+#bar{
+    /* height: 79px;*/
+    background: #FF0000 ;
+    /*margin: -10px;*/
+    min-height: 80px;
+    text-align: center;
+    /*
+    .post-ico{
+
+        position: absolute;
+        float: left;*/
+
+}
+#bar h4 {
+    display: inline-block;
+    font-family: "Montserrat Regular";
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #FBFBFB;
+}
+#bar p{
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Poppins";
+    color: #FBFBFB;
+    padding: 10px 0;
+}
+#bar input{
+    display: inline-block;
+    border-radius: 0px;
+
+}
+.email-box{
+    /*margin-top: 0px;*/
+}
+#bar .bell{
+    height: 18px;
+    width: 18px;
+    position: relative;
+    z-index: 5;
+    float: right;
+    top: -25px;
+    margin-right: 5px;
+}
+/*.bell11{
+    border: none;
+    background-color: transparent;
+}*/
+#footer{
+    /*height: 440px;*/
+    background: #151616;
+    color: #FFFFFF;
+    text-align: left;
+}
+.footer-box{
+    padding-top: 40px;
+
+}
+#footer .footer-nav ul{
+    padding-left: 0;
+    margin-left: -15px;
+    line-height: 2em;;
+
+}
+#footer li{
+    display: inline-block;
+
+
+}
+#footer li a {
+    color: #FFFFFF;
+}
+#footer li a:visited{
+}
+#footer h4{
+    color: #FF0000;
+    text-transform: uppercase;
+    font-family: "Montserrat Regular";
+    font-size: 14px;
+}
+.social-link{
+
+}
+.phone-number{
+    font-size: 23px;
+}
+.fa{
+    display: inline-block;
+    border-radius: 0;
+    color: #515151;
+    border: 2px solid #515151;
+    background: transparent;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    margin-left: 5px;
+    padding-top: 12px;
+}
+.fa:hover{
+    background: #FFFFFF;
+    border: none;
+}
+#footer .social-link {
+    margin-top: 40px;
+    margin-left: -40px;
+}
+.copyright{
+    color: #515151;
+    text-align: center;
+    border-top: #737373 1px dotted;
+    margin-top: 40px;
+    padding-top: 40px;
+    font-size: 13px;
+    font-family: "Poppins";
+    letter-spacing: 1.5px;
+
+}
+.copyright a{
+    color: #515151;
+}
+.copyright a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
